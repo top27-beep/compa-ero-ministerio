@@ -2,7 +2,7 @@ import { GoogleGenAI, Type } from "@google/genai";
 
 // Initialize the API client
 // NOTE: In a production environment, never expose API keys on the client side.
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_API_KEY });
 
 const SYSTEM_INSTRUCTION_BASE = `
 Eres un asistente útil y respetuoso para Testigos de Jehová.
