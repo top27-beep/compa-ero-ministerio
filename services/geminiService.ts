@@ -18,7 +18,7 @@ Sé amable, animador y práctico.
 export const generatePresentations = async (topic: string) => {
   try {
     const response = await ai.models.generateContent({
-      model: "gemini-2.5-flash",
+      model: "gemini-1.5-flash",
       contents: `Busca en jw.org sugerencias recientes para presentaciones o temas de conversación sobre: "${topic}". 
       Genera 3 opciones de presentaciones breves para el ministerio. 
       Incluye una pregunta inicial, un texto bíblico y una publicación o video sugerido.`,
