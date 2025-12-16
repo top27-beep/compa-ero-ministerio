@@ -1,0 +1,8 @@
+{
+  "name": "Compañero Ministerio",
+  "description": "Una herramienta integral para el ministerio con estilo neumórfico. Incluye presentaciones, registro de actividad, mapas de territorio y asistente IA basado en jw.org.",
+  "requestFramePermissions": [
+    "microphone",
+    "geolocation"
+  ]
+}
